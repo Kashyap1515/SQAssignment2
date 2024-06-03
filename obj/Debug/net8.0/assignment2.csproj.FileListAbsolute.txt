@@ -1,0 +1,15 @@
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/bin/Debug/net8.0/assignment2
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/bin/Debug/net8.0/assignment2.deps.json
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/bin/Debug/net8.0/assignment2.runtimeconfig.json
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/bin/Debug/net8.0/assignment2.dll
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/bin/Debug/net8.0/assignment2.pdb
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.AssemblyInfoInputs.cache
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.AssemblyInfo.cs
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.csproj.CoreCompileInputs.cache
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.sourcelink.json
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.dll
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/refint/assignment2.dll
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.pdb
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/assignment2.genruntimeconfig.cache
+/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/Debug/net8.0/ref/assignment2.dll
