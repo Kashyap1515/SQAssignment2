@@ -1,30 +1,38 @@
-namespace Assignment2;
-public class Product
+namespace Groccery
 {
-    public int PId { get; set; }
-    public string PName { get; set; }
-    public int PStock { get; set; }
-
-    public Product(int productId, string productName, int productStock)
+    public class Product
     {
-        PId = productId;
-        PName = productName;
-        PStock = productStock;
-    }
+        public int ProductID { get; set; }
+        public string ProductName { get; set; }
+        public decimal Price { get; set; }
+        public int Stock { get; set; }
 
-    public void IncreaseStockCount(int productStock)
-    {
-        if (productStock > 0)
+        public Product(int productId, string productName, decimal price, int stock)
         {
-            PStock += productStock;
+            ProductID = productId;
+            ProductName = productName;
+            Price = price;
+            Stock = stock;
         }
-    }
 
-    public void DecreaseStockCount(int productStock)
-    {
-        if (productStock > 0)
+        public void IncreaseStock(int amount)
         {
-            PStock -= productStock;
+            if (amount > 0)
+            {
+                Stock += amount;
+            }
+        }
+
+        public void DecreaseStock(int amount)
+        {
+            if (amount > 0 && Stock >= amount)
+            {
+                Stock -= amount;
+            }
+        }
+        public override string ToString()
+        {
+            return $"Product ID: {ProductID}, Product Name: {ProductName}, Price: {Price}, Stock: {Stock}";
         }
     }
 }

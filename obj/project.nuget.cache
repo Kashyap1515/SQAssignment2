@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "GI5O0lJKjG0or/jbCAhDcJDPsx+X8V9XAGcm1dsNJa5Rk0lAIFZ0RWbpXGTVudNt3yJrr2jsKI5+5qx1vd5w0g==",
+  "dgSpecHash": "vtbEIveJmC1FhTCkRSxvke31WxPuPDqoB0cLsJ5OZ8gOAA87b7FNZtQJlZMTFtJBEVqYMzNcKtihKRrVuCc8aA==",
   "success": true,
   "projectFilePath": "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/assignment2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/kashyap/.nuget/packages/microsoft.codecoverage/17.10.0/microsoft.codecoverage.17.10.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/microsoft.net.test.sdk/17.10.0/microsoft.net.test.sdk.17.10.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/microsoft.testplatform.objectmodel/17.10.0/microsoft.testplatform.objectmodel.17.10.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/microsoft.testplatform.testhost/17.10.0/microsoft.testplatform.testhost.17.10.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/nunit/4.1.0/nunit.4.1.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/kashyap/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
