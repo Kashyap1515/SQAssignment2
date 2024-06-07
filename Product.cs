@@ -1,4 +1,4 @@
-namespace Groccery
+namespace Grocery
 {
     public class Product
     {
@@ -15,21 +15,50 @@ namespace Groccery
             Stock = stock;
         }
 
-        public void IncreaseStock(int amount)
+        public void IncreaseStock(int itemStock)
         {
-            if (amount > 0)
+            if (itemStock > 0)
             {
-                Stock += amount;
+                var newStock = Stock + itemStock;
+                if (newStock >= 4 && newStock <= 400000)
+                {
+                    Stock = newStock;
+                }
+                else
+                {
+                    throw new InvalidOperationException("Stock should be between 4 to 400000 only.");
+                }
+            }
+            else
+            {
+                throw new InvalidOperationException("Amount should be positive.");
             }
         }
 
-        public void DecreaseStock(int amount)
+        public void DecreaseStock(int itemStock)
         {
-            if (amount > 0 && Stock >= amount)
+            if (itemStock > 0 && Stock >= itemStock)
             {
-                Stock -= amount;
+                var newStock = Stock - itemStock;
+                if (newStock >= 4 && newStock <= 400000)
+                {
+                    Stock = newStock;
+                }
+                else
+                {
+                    throw new InvalidOperationException("Stock should be between 4 to 400000 only.");
+                }
+            }
+            else if (itemStock <= 0)
+            {
+                throw new InvalidOperationException("Amount should be positive.");
+            }
+            else
+            {
+                throw new InvalidOperationException("Insufficient stock.");
             }
         }
+
         public override string ToString()
         {
             return $"Product ID: {ProductID}, Product Name: {ProductName}, Price: {Price}, Stock: {Stock}";
