@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kashyap/assignment2/assignment2.csproj": {}
+    "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/assignment2.csproj": {}
   },
   "projects": {
-    "/Users/kashyap/assignment2/assignment2.csproj": {
+    "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/assignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kashyap/assignment2/assignment2.csproj",
+        "projectUniqueName": "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/assignment2.csproj",
         "projectName": "assignment2",
-        "projectPath": "/Users/kashyap/assignment2/assignment2.csproj",
+        "projectPath": "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/assignment2.csproj",
         "packagesPath": "/Users/kashyap/.nuget/packages/",
-        "outputPath": "/Users/kashyap/assignment2/obj/",
+        "outputPath": "/Users/kashyap/Downloads/Term 2/Kashyap/Software Quality/assignment2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kashyap/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.10.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
