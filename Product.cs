@@ -1,4 +1,4 @@
-namespace Grocery
+namespace EcommerceGrocery
 {
     public class Product
     {
@@ -24,14 +24,6 @@ namespace Grocery
                 {
                     Stock = newStock;
                 }
-                else
-                {
-                    throw new InvalidOperationException("Stock should be between 4 to 400000 only.");
-                }
-            }
-            else
-            {
-                throw new InvalidOperationException("Amount should be positive.");
             }
         }
 
@@ -44,18 +36,6 @@ namespace Grocery
                 {
                     Stock = newStock;
                 }
-                else
-                {
-                    throw new InvalidOperationException("Stock should be between 4 to 400000 only.");
-                }
-            }
-            else if (itemStock <= 0)
-            {
-                throw new InvalidOperationException("Amount should be positive.");
-            }
-            else
-            {
-                throw new InvalidOperationException("Insufficient stock.");
             }
         }
 
